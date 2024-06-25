@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel = 'stylesheet' href="calculator.css">
+</head>
+<body >
+<p>
+  CALCULATOR
+</p>
+<p class="res">
+
+</p>
+<p>
+  <button onclick="cal+=1;
+  console.log(cal);
+  updateCalculation();">
+    1
+  </button>
+  <button onclick="cal+=2;
+  console.log(cal);
+  updateCalculation()">
+    2
+  </button>
+  <button onclick="cal+=3;
+  console.log(cal);
+  updateCalculation()">
+    3
+  </button>
+  <button class="orange-btn" onclick="cal += '+';
+  console.log(cal);
+  updateCalculation()">
+    +
+  </button>
+</p>
+<p>
+  <button onclick="cal+=4;
+  console.log(cal);
+  updateCalculation()">
+    4
+  </button>
+  <button onclick="cal+=5;
+  console.log(cal);
+  updateCalculation()">
+    5
+  </button>
+  <button onclick="cal+=6;
+  console.log(cal);
+  updateCalculation()">
+    6
+  </button>
+  <button class="orange-btn" onclick="cal+='-';
+  console.log(cal);
+  updateCalculation()">
+    -
+  </button>
+</p>
+  <p>
+    <button onclick="cal+=7;
+  console.log(cal);
+  updateCalculation()">
+    7
+  </button>
+  <button onclick="cal+=8;
+  console.log(cal);
+  updateCalculation()">
+    8
+  </button>
+  <button onclick="cal+=9 ;
+  console.log(cal);
+  updateCalculation()">
+    9
+  </button>
+  <button class="orange-btn" onclick="cal+='*';
+  console.log(cal);
+  updateCalculation()">
+    *
+  </button>
+  </p>
+  <p>
+    <button onclick="cal+=0;
+  console.log(cal)
+  ;updateCalculation()">
+    0
+  </button>
+  <button  onclick="cal+='.';
+  console.log(cal);
+  updateCalculation()">
+    .
+  </button>
+  <button onclick="cal=eval(cal);
+  console.log(`${cal}`);
+  updateCalculation()">
+    =
+  </button>
+  <button class="orange-btn" onclick="cal+='/';
+  console.log(cal)">
+    /
+  </button>
+  </p>
+  <button class = "clr-btn" onclick="
+  cal ='';
+  console.log('Cleared');
+  updateCalculation()">
+    Clear
+  </button>
+  
+  <script src="calculator.js">
+    
+  </script>
+</body>
+</html>
+<!-- 7:12:00 -->
