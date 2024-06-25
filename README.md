@@ -10,7 +10,7 @@ A simple web-based calculator built using HTML, CSS, and JavaScript.
 
 ## Demo
 
-You can try the calculator [here](https://github.com/varun-jasti/Simple-Calculator).
+You can try the calculator [here](https://varun-jasti.github.io/Simple-Calculator/).
 
 ## Installation
 
